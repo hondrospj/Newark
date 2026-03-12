@@ -27,8 +27,8 @@ const path = require("path");
 // -------------------------
 const CACHE_PATH = path.join(__dirname, "..", "data", "peaks_navd88.json");
 
-const NOAA_OBS_STATION = "8530882";      // Cape May NOAA observations
-const NOAA_TIDECLOCK_STATION = "8530882"; // use Cape May NOAA highs too
+const NOAA_OBS_STATION = "8530884";      // Cape May NOAA observations
+const NOAA_TIDECLOCK_STATION = "8530884"; // use Cape May NOAA highs too
 const NOAA_OBS_DATUM = "NAVD";
 const NAVD_MINUS_MLLW = -3.03;
 
